@@ -16,6 +16,7 @@ function App() {
   return (
     <div style={{ fontFamily: "Arial", textAlign: "center", padding: "50px" }}>
       <h1>How much have your bills gone up?</h1>
+
       <img
         src="https://previews.123rf.com/images/hozard/hozard1705/hozard170500076/78108680-african-male-sitting-at-kitchen-table-feeling-sad-and-depressed-about-debts-can-t-pay-off-his.jpg"
         alt="Funny Graphic"
