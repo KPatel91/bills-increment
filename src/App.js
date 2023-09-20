@@ -26,7 +26,7 @@ function App() {
           type="number"
           value={previousBill}
           onChange={(e) => setPreviousBill(e.target.value)}
-          placeholder="Previous Bill"
+          placeholder="Last Bill"
           style={{ padding: "10px", marginRight: "10px", width: "40%" }}
         />
         <input
@@ -43,7 +43,8 @@ function App() {
       {difference !== null && (
         <div style={{ marginTop: "30px", fontSize: "20px" }}>
           <div>
-            Total {difference > 0 ? "Increment" : "Decrement"}: ${difference.toFixed(2)}
+            Total {difference > 0 ? "Increase" : "Decrease"}: £{difference.toFixed(2)}{" "}
+            {difference > 0 ? "😭" : "🥳"}
           </div>
           <div>
             {difference > 0 ? "Increase" : "Decrease"}: {percentage}%
