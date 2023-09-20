@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bills-increment/static/css/main.e6c13ad2.css",
+    "main.js": "/bills-increment/static/js/main.10195f02.js",
+    "static/js/787.1b7ba068.chunk.js": "/bills-increment/static/js/787.1b7ba068.chunk.js",
+    "index.html": "/bills-increment/index.html",
+    "main.e6c13ad2.css.map": "/bills-increment/static/css/main.e6c13ad2.css.map",
+    "main.10195f02.js.map": "/bills-increment/static/js/main.10195f02.js.map",
+    "787.1b7ba068.chunk.js.map": "/bills-increment/static/js/787.1b7ba068.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.10195f02.js"
+  ]
+}
